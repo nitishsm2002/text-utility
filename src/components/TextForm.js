@@ -12,7 +12,8 @@ export default function TextForm(props) {
         setText(newText)
     }
     const handleResetClick=()=>{
-         window.location.reload(false);
+        let newText=(" ");
+        setText(newText)
     }
     const HandleOnChange=(event)=>{
         
